@@ -6,6 +6,9 @@ from os import environ
 API_ID = int(environ.get("API_ID", "29481626"))
 API_HASH = environ.get("API_HASH", "4892185769903521077c4cea97808b8c")
 BOT_TOKEN = environ.get("BOT_TOKEN", "8941007576:AAFPy9NOV4MBgtRdmNpsoAv8aqtVJwoUChE")
+SHORTENER_API_KEY = environ.get("SHORTENER_API_KEY", "")
+SHORTENER_API_URL = environ.get("SHORTENER_API_URL", "")
+
 
 # 👥 Authorized Users - Bot will work only with these users
 AUTH_USERS = list(map(int, environ.get("AUTH_USERS", "5856009289 87654321").split()))
