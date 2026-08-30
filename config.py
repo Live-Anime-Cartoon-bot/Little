@@ -6,8 +6,8 @@ from os import environ
 API_ID = int(environ.get("API_ID", "29481626"))
 API_HASH = environ.get("API_HASH", "4892185769903521077c4cea97808b8c")
 BOT_TOKEN = environ.get("BOT_TOKEN", "8941007576:AAFPy9NOV4MBgtRdmNpsoAv8aqtVJwoUChE")
-SHORTENER_API_KEY = environ.get("SHORTENER_API_KEY", "")
-SHORTENER_API_URL = environ.get("SHORTENER_API_URL", "")
+SHORTENER_API_KEY = environ.get("SHORTENER_API_KEY", "9503d9bf87c90aa9e0aab35d4dec7d1ce24c0a23")
+SHORTENER_API_URL = environ.get("SHORTENER_API_URL", "https://shrinkme.io")
 
 
 # 👥 Authorized Users - Bot will work only with these users
