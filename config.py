@@ -20,7 +20,7 @@ DOWNLOAD_DIRECTORY = environ.get("DOWNLOAD_DIRECTORY", "./downloads")
 DEFAULT_METADATA = environ.get("DEFAULT_METADATA", "")
 
 # 📄 Default Filename - Used when no filename is provided
-DEFAULT_FILENAME = environ.get("DEFAULT_FILENAME", "LS")
+DEFAULT_FILENAME = environ.get("DEFAULT_FILENAME", "Little Singham Bot")
 
 # 🌍 Timezone Configuration
 TIMEZONE = environ.get("TIMEZONE", "Asia/Kolkata")
@@ -28,4 +28,4 @@ TIMEZONE = environ.get("TIMEZONE", "Asia/Kolkata")
 
 # 🔗 Link Shortener Configuration
 SHORTENER = environ.get("SHORTENER", "shrinkme.io")
-SHORTENER_API = environ.get("SHORTENER_API", "")
+SHORTENER_API = environ.get("SHORTENER_API", "9503d9bf87c90aa9e0aab35d4dec7d1ce24c0a23")
