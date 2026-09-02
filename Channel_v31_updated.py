@@ -18,7 +18,7 @@ PUBLIC_CHANNELS = {
     "DISCOVERY KIDS 3": "http://202.70.146.135:8000/play/a0a6/index.m3u8",
     "Epic kids": "https://cc-t8lqe1o99pszu.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-t8lqe1o99pszu/playlist.m3u8",
     "Pogo 3": "http://66.102.126.10:8000/play/a00d/index.m3u8",
-    "Pogo 4": "http://202.70.146.135:8000/play/a0a7/index.m3u8",
+    "Pogo 4": "https://bdix.spidy.online/MAC/SBHGOLD/play.php?id=281410",
     'Sony Entertainment Television SD': 'https://cloudplay-sonyliv.pages.dev/set.m3u8',
     'Sony Entertainment Television HD': 'https://cloudplay-sonyliv.pages.dev/sethd.m3u8',
     'Sony SAB SD': 'https://cloudplay-sonyliv.pages.dev/sab.m3u8',
