@@ -661,7 +661,7 @@ async def start_help_callback(client, query):
         "`/Rec -16:9 <LINK/CHANNEL/ID/NAME> 00:00:30 File Name`\n"
         "`/Sony 00:00:30 File Name`\n\n"
         "⚙️ **Video Tools:** Audio Track • Trim • Watermark • Screenshot\n\n"
-        "👨‍💻 _Bot maintained by @TPlayOwner_bot_"
+        "👨‍💻 _Bot maintained by @TPlayOwner_bot"
     )
     try:
         await query.message.edit_text(text, disable_web_page_preview=True)
@@ -996,7 +996,7 @@ async def help_cmd(client, message):
         "`/Rec -16:9 <LINK/CHANNEL/ID/NAME> 00:00:30 File Name`\n"
         "`/Sony 00:00:30 File Name`\n\n"
         "⚙️ **Video Tools:** Audio Track • Trim • Watermark • Screenshot\n\n"
-        "👨‍💻 _Bot maintained by @TPlayOwner_bot_",
+        "👨‍💻 _Bot maintained by @TPlayOwner_bot",
         disable_web_page_preview=True
     )
 
@@ -1838,7 +1838,7 @@ def _channel_group_key(name: str):
     n = name.strip().casefold()
     if n.startswith("pogo"):
         return "POGO"
-    if n.startswith("discovery kids"):
+    if n.startswith("discoverykids"):
         return "DISCOVERY KIDS"
     if n.startswith("nick"):
         return "NICK"
@@ -1901,7 +1901,7 @@ async def channel_group_callback(client, query):
         want_hd = group_name.endswith("HD")
         names = [
             name for name in channels
-            if name.strip().casefold().startswith("sony ")
+            if name.strip().casefold().startswith("sony")
             and name.strip().casefold().endswith(" hd") == want_hd
         ]
     else:
@@ -3523,7 +3523,7 @@ def TimeFormatter(milliseconds: int) -> str:
 # ============================================================================
 VIDEO_TOOL_STATES = {}
 WATERMARK_IMAGE_URL = "https://iili.io/CuMJCjn.md.png"
-WATERMARK_MAX_SECONDS = 30
+WATERMARK_MAX_SECONDS = 500
 VIDEO_TOOL_DELETE_SECONDS = 300
 
 
