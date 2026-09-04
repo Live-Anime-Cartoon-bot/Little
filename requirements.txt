@@ -6,3 +6,4 @@ aiohttp
 aiofiles
 python-dotenv
 pytz
+psutil
