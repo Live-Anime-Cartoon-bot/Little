@@ -11,5 +11,11 @@ COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
 COPY maux.py ./
+COPY requirements.txt .
+RUN pip install --no-cache-dir -r requirements.txt
+
+COPY maux.py .
+COPY config.py .
+COPY Channel.py .
 
 CMD ["python", "maux.py"]
